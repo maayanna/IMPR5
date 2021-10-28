@@ -1,0 +1,10 @@
+Answer for deblurring :
+
+We have a decreasing loss from 1 resblock to 5 resblocks (not included).
+The network just learn what he receives and doesn't find a general law : NO OVERFITTING
+
+Answer for denoising :
+
+Same answer but this time we have a decresing loss from 1 to 3 resblocks (not included). And then we have an
+increasing loss due to the overfitting. ( From 4 to 5 not included)
+Then it seems like it continues to learn because the loss is decreasing again.

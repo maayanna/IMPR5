@@ -1,0 +1,8 @@
+Corrupted Function --> We want to train our network using a corrupted function that reduces the image's resolution
+to find out how to solve the super-resolution problem.
+In order to do that, we blur the image with the gaussian kernel who have as a size a random number between
+2 and the minimum between log(width) or log(height).
+
+Restoring image --> Once we trained well our network, we will be able to restore images using the corrupted function
+we used before.
+Like that, we can restore the low resolution images.
